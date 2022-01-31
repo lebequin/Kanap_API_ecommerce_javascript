@@ -5,7 +5,7 @@ storedProducts = JSON.parse(storage);
 
 if (!storedProducts){
     createAlert()
-    HEAD:main }
+}
 
 for(storedinProduct of storedProducts){
     let storedProduct = storedinProduct
